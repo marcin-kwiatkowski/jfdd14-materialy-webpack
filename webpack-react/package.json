@@ -1,0 +1,16 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "iSA: Webpack",
+  "scripts": {
+    "clean": "rm -rf dist/**",
+    "webpack": "yarn run clean && npx webpack --config webpack.config.js"
+  },
+  "author": "Marcin Kwiatkowski",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
