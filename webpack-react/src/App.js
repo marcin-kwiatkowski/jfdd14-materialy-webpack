@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import styles from "./styles.css";
 
 class App extends Component {
-    render() {
-        return (
-            <div>Cześć to ja :)</div>
-        )
-    }
+  render() {
+    return <div className={styles.main}>Cześć to ja :)</div>;
+  }
 }
-export default App
+export default App;
