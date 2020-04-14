@@ -4,7 +4,7 @@
   "description": "iSA: Webpack",
   "scripts": {
     "clean": "rm -rf dist/**",
-    "webpack": "npm run clean && npx webpack --config webpack.config.js"
+    "build": "npm run clean && npx webpack --config webpack.config.js"
   },
   "author": "Marcin Kwiatkowski",
   "license": "ISC",
@@ -12,5 +12,9 @@
   "dependencies": {
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11"
   }
 }
